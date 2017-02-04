@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{68987504-E4B6-B0B7-290C-C0DFEB455ACC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\Camera\BlendText.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\Camera\DemoKeyCommands.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\Camera\FlyingCamera.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\Camera\HelpText.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\Camera\OrbitCamera.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\Camera\ShootBall.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\Locomotion\CharacterMotor.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\Locomotion\NormalCharacterMotor.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\Locomotion\PlatformCharacterController.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\Shadow\DummyCoordinator.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\UI\CursorChild.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\UI\CursorParent.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\UI\GoToTarget.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\Common\Scripts\UI\MoveTarget.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\DemoHeadLook\Scripts\DummyHeadlookCoordinator.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\DemoRagdoll\Scripts\DummyRagdollCoordinator.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\DemoReach\Scripts\DummyReachCoordinator.cs" />
+     <Compile Include="Assets\ADAPT Core\Demos\DemoWander\Scripts\WanderBehavior.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\BehaviorAgent.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\BehaviorEvent.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\BehaviorManager.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\DecoratorCatch.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\DecoratorForceStatus.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\DecoratorInvert.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\DecoratorLoop.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\LeafInvoke.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\LeafTrace.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\LeafWait.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\Primitive\Decorator.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\Primitive\Node.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\Primitive\NodeGroup.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\Primitive\NodeGroupWeighted.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\Primitive\Parallel.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\Primitive\RunStatus.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\Primitive\Val.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\Race.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\Selector.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\SelectorParallel.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\SelectorShuffle.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\Sequence.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\SequenceParallel.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\SequenceShuffle.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\Util\ExtensionMethods.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Include\TreeSharpPlus\Util\Util.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Nodes\CharacterNodes.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Behavior\Nodes\SmartObjectNodes.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Character\Behavior.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Character\Body.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Character\Character.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Character\Coordinator.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Character\Interfaces\IBehavior.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Character\Interfaces\ICharacter.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Animation\ShadowAnimationController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Dummy\ShadowDummyController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\HeadLook\Include\BendingSegment.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\HeadLook\Include\NonAffectedJoint.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\HeadLook\Legacy\HeadLookController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\HeadLook\ShadowHeadLookController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Idle\ShadowIdleController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Locomotion\Include\AlignmentTracker.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Locomotion\Include\GhostOriginal.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Locomotion\Include\IMotionAnalyzer.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Locomotion\Include\Interpolator.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Locomotion\Include\LegController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Locomotion\Include\LocomotionUtil.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Locomotion\Include\MotionAnalyzer.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Locomotion\Include\MotionAnalyzerBackwards.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Locomotion\Include\PolarGradientBandInterpolator.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Locomotion\Include\TrajectoryVisualizer.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Locomotion\Legacy\LegAnimator.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Locomotion\ShadowLocomotionController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Ragdoll\Include\CollisionDetector.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Ragdoll\Include\CollisionNotifier.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Ragdoll\ShadowRagdollController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Reach\ShadowReachController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Controllers\Sitting\ShadowSittingController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Debug\GizmoDraw.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Debug\LockPosition.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Debug\ToggleRender.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\IK\IK1JointAnalytic.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\IK\IKCCD3D.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\IK\IKJoint.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\IK\IKSimple.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\IK\IKSolver.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Navigation\Recast\Include\Navmesh\Navmesh.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Navigation\Recast\Include\Navmesh\NavmeshBuilder.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Navigation\Recast\Include\Navmesh\NavmeshDebugRenderer.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Navigation\Recast\Include\Steering\RecastSteeringManager.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Navigation\Recast\RecastSteeringController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Navigation\SteeringController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Navigation\Unity\UnitySteeringController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Shadow\Debug\ShadowGizmo.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Shadow\Debug\ShadowRender.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Shadow\Include\BlendSystem.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Shadow\Include\FilterList.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Shadow\Include\Slider.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Shadow\Shadow.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Shadow\ShadowController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Shadow\ShadowCoordinator.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\Shadow\ShadowTransform.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\SmartObject\SmartObject.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\UI\RecastNavmeshPlatformController.cs" />
+     <Compile Include="Assets\ADAPT Core\Scripts\UI\UnityNavmeshPlatformController.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial1\Completed\ShadowLeanControllerCompleted.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial1\Completed\TutorialCoordinatorCompleted.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial2\Completed\TutorialSteeringCoordinatorCompleted.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial2\Completed\TutorialWaypointCompleted.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial3\Completed\TutorialGesturesCompleted.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial3\Completed\TutorialLookPointCompleted.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial3\Completed\TutorialReachPointCompleted.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial3\Completed\TutorialWaypoint2Completed.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial4\Completed\TutorialIdleBehaviorCompleted.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial4\Completed\TutorialInvokeEventCompleted.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial4\Completed\TutorialWanderBehaviorCompleted.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial4\TutorialIdleBehavior.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial4\TutorialInvokeEvent.cs" />
+     <Compile Include="Assets\ADAPT Core\Tutorials\Tutorial4\TutorialWanderBehavior.cs" />
+     <Compile Include="Assets\Motions\demo\scripts\demo.cs" />
+     <Compile Include="Assets\Motions\demo\scripts\smoothFollow.cs" />
+     <Compile Include="Assets\Project\Communication.cs" />
+     <Compile Include="Assets\Scripts\Behavior\AvatarBehavior.cs" />
+     <Compile Include="Assets\Scripts\Behavior\BehaviourEvents1.cs" />
+     <Compile Include="Assets\Scripts\Behavior\NewBehavior.cs" />
+     <Compile Include="Assets\Scripts\Behavior\NewCharacter.cs" />
+     <Compile Include="Assets\Scripts\Controls\CharacterControl.cs" />
+     <Compile Include="Assets\Scripts\Controls\CharacterControlScript.cs" />
+     <Compile Include="Assets\Scripts\Controls\NavMeshObstacleScript.cs" />
+     <Compile Include="Assets\Scripts\Controls\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\TESTT.cs" />
+     <None Include="Assets\ADAPT Core\Demos\Common\Projector\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\ADAPT Core\Resources\NavmeshDebugShader.shader" />
+     <None Include="Assets\ADAPT Core\Prefabs\Character\ADAPTManParams.txt" />
+     <None Include="Assets\ADAPT Core\Demos\DemoSteering\Recast\README.txt" />
+     <None Include="Assets\ADAPT Core\Demos\Common\Projector\Shaders\Projector Light.shader" />
+     <None Include="Assets\ADAPT Core\Scripts\Character\README.txt" />
+     <None Include="Assets\ADAPT Core\Resources\README.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

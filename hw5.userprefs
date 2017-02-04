@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Unity materials\ADAPTp1 - Copy\ADAPTp1\Unity\Assets\ADAPT Core\Tutorials\Tutorial4\Completed\TutorialInvokeEventCompleted.cs">
+    <Files>
+      <File FileName="..\..\Unity materials\ADAPTp1 - Copy\ADAPTp1\Unity\Assets\ADAPT Core\Scripts\Animators\BasicController02.cs" Line="48" Column="3" />
+      <File FileName="..\..\Unity materials\ADAPTp1 - Copy\ADAPTp1\Unity\Assets\ADAPT Core\Tutorials\Tutorial4\Completed\SoldierBehavior.cs" Line="1" Column="1" />
+      <File FileName="..\..\Unity materials\ADAPTp1 - Copy\ADAPTp1\Unity\Assets\ADAPT Core\Tutorials\Tutorial4\Completed\SoldierIdleBehavior.cs" Line="1" Column="1" />
+      <File FileName="..\..\Unity materials\ADAPTp1 - Copy\ADAPTp1\Unity\Assets\ADAPT Core\Tutorials\Tutorial4\Completed\TutorialInvokeEventCompleted.cs" Line="42" Column="13" />
+      <File FileName="Assets\Scripts\Animation2\CharacterControlScript2.cs" Line="1" Column="1" />
+      <File FileName="..\..\Unity materials\ADAPTp1 - Copy\ADAPTp1\Unity\Assets\ADAPT Core\Tutorials\Tutorial4\Completed\SoldierCharacter.cs" Line="91" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
